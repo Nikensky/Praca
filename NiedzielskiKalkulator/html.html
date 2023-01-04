@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="section">
+        <div>
+            <form id="suma" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba1" type="text"> <br>
+                </div>
+                <div id="l2">
+                    <label for="">liczba 2 : </label>
+                    <input id="liczba2" type="text"> <br>
+                </div>
+                <div id="l3">
+                    <label for="">liczba 3 : </label>
+                    <input id="liczba3" type="text"> <br>
+                </div>
+               
+                <button onclick="suma()" type="button">Oblicz sume</button>
+               
+                <p id="formresult">wynik</p>
+            </form>
+            
+
+            <form id="srednia" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba12" type="text"> <br>
+                </div>
+                <div id="l2">
+                    <label for="">liczba 2 : </label>
+                    <input id="liczba22" type="text"> <br>
+                </div>
+                <div id="l3">
+                    <label for="">liczba 3 : </label>
+                    <input id="liczba32" type="text"> <br>
+                </div>
+                <button onclick="srednia()" type="button">Oblicz srednia</button>
+               
+                <p id="sredniawynik">wynik</p>
+
+
+
+            </form>
+
+            <form id="wszystko" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba13" type="text"> <br>
+                </div>
+                <div id="l2">
+                    <label for="">liczba 2 : </label>
+                    <input id="liczba23" type="text"> <br>
+                </div>
+                
+                <button onclick="wszystko()" type="button">Oblicz</button>
+               
+                <p id="wszystkowynik">wynik</p>
+                <p id="wszystkowynik2"></p>
+                <p id="wszystkowynik3"></p>
+
+
+
+            </form>
+
+            <form id="pierwiastek" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba14" type="text"> <br>
+                </div>
+               
+                <button onclick="pierwiastek()" type="button">Oblicz pierwiastek</button>
+               
+                <p id="pierwwynik">wynik</p>
+
+
+
+            </form>
+
+            <form id="kwadrat" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba15" type="text"> <br>
+                </div>
+               
+                <button onclick="kwadrat()" type="button">Oblicz pole kwadratu</button>
+               
+                <p id="kwadratwynik">wynik</p>
+
+
+
+            </form>
+          
+            <form id="prosto" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba16" type="text"> <br>
+                </div>
+                <div id="l2">
+                    <label for="">liczba 2 : </label>
+                    <input id="liczba26" type="text"> <br>
+                </div>
+                <div id="l3">
+                    <label for="">liczba 3 : </label>
+                    <input id="liczba36" type="text"> <br>
+                </div>
+               
+                <button onclick="prosto()" type="button">Oblicz pole prostopadloscianu</button>
+               
+                <p id="prostowynik">wynik</p>
+
+
+
+            </form>
+
+            
+            <form id="kolo" action="">
+                <div id="l1">
+                    <label for="">liczba 1 : </label>
+                    <input id="liczba17" type="text"> <br>
+                </div>
+               
+                <button onclick="kolo()" type="button">Oblicz pole i obwod kola</button>
+               
+                <p id="kolowynik">Pole</p>
+                <p id="kolowynik2">Obwod</p>
+
+
+
+            </form>
+
+            <form id="koszt" action="">
+                <div id="l1">
+                    <label for=""> cena paliwa </label>
+                    <input id="liczba18" type="text"> <br>
+                </div>
+               
+                <button onclick="koszt()" type="button">Oblicz koszt przejazdu z Gdanska do Szczecina</button>
+               
+                <p id="kosztwynik">Koszt przy spalaniu 8/100</p>
+                
+
+
+
+            </form>
+
+            <form id="koszta" action="">
+                <div id="l1">
+                    <label for=""> cena paliwa </label>
+                    <input id="liczba19" type="text"> <br>
+                </div>
+                <div id="l1">
+                    <label for=""> dlugosc trasy </label>
+                    <input id="liczba29" type="text"> <br>
+                </div>
+                <div id="l1">
+                    <label for=""> spalanie</label>
+                    <input id="liczba39" type="text"> <br>
+                </div>
+               
+                <button onclick="koszta()" type="button">Oblicz koszt przejazdu </button>
+               
+                <p id="kosztawynik"></p>
+                
+
+
+
+            </form>
+            
+            <form id="lokata" action="">
+                <div id="l1">
+                    <label for=""> lokata </label>
+                    <input id="liczba120" type="text"> <br>
+                </div>
+                <div id="l1">
+                    <label for=""> dlugosclokaty </label>
+                    <input id="liczba220" type="text"> <br>
+                </div>
+               
+                <button onclick="lokata()" type="button">Oblicz llokate</button>
+               
+                <p id="lokatawynik">lokata po roku</p>
+                <p id="lokatawynik2">lokata po 2 latach</p>
+                
+
+
+
+            </form>
+
+          
+            
+        </div>
+
+        
+        
+        <script src="script.js"></script>
+</body>
+</html>
